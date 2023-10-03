@@ -4,7 +4,7 @@
   "description": "NodeJS, GraphQL test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha *.test.js"
   },
   "author": "Tahar Meftah",
   "license": "ISC",
@@ -14,5 +14,10 @@
     "express": "^4.18.2",
     "express-graphql": "^0.12.0",
     "graphql": "^14.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
   }
 }
